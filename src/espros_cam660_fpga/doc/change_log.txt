@@ -1,0 +1,50 @@
+
+********************************************************************************
+Changelog cam660_fpga_driver
+
+ESPROS Photonics Corp.
+
+Author: linas.sinkunas@espros.com
+********************************************************************************
+
+Software v.1.6.0 - Document dated 13.10.2020
+
+	- Code refactoring according to ROS CppStyleGuide style
+
+
+Software v.1.5.0
+
+	- Changed cartesian transformation algorithm
+    - Small bug fixes
+
+
+Software v.1.4.0
+
+	- Added DCS images
+    - Added filters
+
+
+Software v.1.3.0
+
+  - Changed point cloud mm -> m (millimeters to meters)
+  - Gave NAN values for non valid point cloud pixels
+  - Changed rviz configuration
+
+
+Software v.1.2.0 
+
+  - Fixed undistortion
+  - Fixed cartesian transformation
+  - Optimised speed
+
+
+Software v.1.1.0
+
+  - Fixed a communication problem for ROS kinetic distribution
+  - Added automatic integration time
+  - Added more Wide and Narrow field modes 
+
+
+Software v.1.0.0
+
+ - First cam660_ROS_driver version for melodic ROS distribution

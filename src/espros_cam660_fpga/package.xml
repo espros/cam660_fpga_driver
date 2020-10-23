@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>espros_cam660_fpga</name>
+  <version>1.6.0</version>
+  <description>The tof camera espros_cam660_fpga package</description>
+  <maintainer email="lsi@espros.com">lsi</maintainer>
+  <license>BSD</license>
+  <!-- <url type="website">http://wiki.ros.org/ESPROS</url> -->
+  <author email="lsinkunas@gmail.com">Linas Sinkunas</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_export_depend>roscpp</build_export_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>libpcl-all-dev</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>dynamic_reconfigure</exec_depend> 
+  <exec_depend>libpcl-all</exec_depend>
+  <exec_depend>pcl_conversions</exec_depend>
+  <exec_depend>pcl_ros</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>tf</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
